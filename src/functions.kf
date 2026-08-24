@@ -1,0 +1,11 @@
+Int add(Int a, Int b) = a + b
+Int subtract(Int a, Int b) = a - b
+Int multiply(Int a, Int b) = a * b
+Int divide(Int a, Int b) = a / b
+
+main() {
+    println(add(2, 3))
+    println(subtract(5, 3))
+    println(multiply(4, 3))
+    println(divide(10, 2))
+}

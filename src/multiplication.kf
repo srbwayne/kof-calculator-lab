@@ -1,0 +1,5 @@
+main() {
+    println(4 * 3)
+    println(0 * 10)
+    println(-3 * 4)
+}

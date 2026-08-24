@@ -1,0 +1,5 @@
+main() {
+    println("Enter something:")
+    var line = readLine()
+    println("You entered: " + line)
+}

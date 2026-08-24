@@ -1,0 +1,27 @@
+Int add(Int a, Int b) = a + b
+Int subtract(Int a, Int b) = a - b
+Int multiply(Int a, Int b) = a * b
+Int divide(Int a, Int b) = a / b
+
+calculate(Int a, Int b, String operation): Int {
+    if (operation == "+") {
+        return add(a, b)
+    } else {
+        if (operation == "-") {
+            return subtract(a, b)
+        } else {
+            if (operation == "*") {
+                return multiply(a, b)
+            } else {
+                return divide(a, b)
+            }
+        }
+    }
+}
+
+main() {
+    println(calculate(10, 2, "+"))
+    println(calculate(10, 2, "-"))
+    println(calculate(10, 2, "*"))
+    println(calculate(10, 2, "/"))
+}

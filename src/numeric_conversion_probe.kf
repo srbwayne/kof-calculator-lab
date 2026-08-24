@@ -1,0 +1,4 @@
+main() {
+    var value = "10".toInt()
+    println(value)
+}
